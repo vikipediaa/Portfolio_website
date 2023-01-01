@@ -1,0 +1,30 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); 
+.navigation {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: rgb(163, 79, 79);
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand {
+    font-weight: bold;
+    
+}
+ 
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+ 
+.navigation a {
+    text-decoration: none;
+    color: rgb(99, 20, 20)
+}  
+.navigation .active {
+    font-weight: bold;
+} 
